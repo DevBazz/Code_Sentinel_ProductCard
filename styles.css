@@ -13,7 +13,7 @@ body {
 main {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(95, 95, 95);
+  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,6 +85,10 @@ main {
   z-index: 1;
 }
 
+.product-image img:hover{
+  scale: 1.2;
+  transition-duration: .5s;
+}
 
 .zigzag img:first-child{
   position: absolute;
@@ -118,11 +122,20 @@ main {
 
 button{
   padding: 6px 30px;
-  border-radius: 20px;
-  margin-top: 5px;
+  border-radius: 15px;
+  margin-top: 8px;
   background: linear-gradient(to right, #4faceb, #0c6fb1);
   color: wheat;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-2{
+  background: linear-gradient(to right, #eb4fc4, #b10ca9);
+}
+
+.btn-3{
+  background: linear-gradient(to right, #f0762f, #bd601e);
 }
 
 .product-left{
@@ -182,7 +195,7 @@ button{
 
 .product-details-1 h3{
   color: #4da6e2;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 6px;
 }
 
@@ -197,7 +210,7 @@ button{
 
 .product-details-2 h3{
   color: #e05fee;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 6px;
 }
 
@@ -212,7 +225,7 @@ button{
 
 .product-details-3 h3{
   color: #CD7847;
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 6px;
 }
 
